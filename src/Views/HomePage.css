@@ -1,3 +1,7 @@
+.content {
+    margin-top: 177px
+}
+
 .cafe-homepage {
     text-align: center;
     padding: 50px;
@@ -68,4 +72,18 @@
 
 .scroll-to-top:hover {
     background-color: #ff9900;
+}
+
+.landing-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 240px;
+}
+
+.signup{
+    width: 150px;
+    height: 40px;
 }

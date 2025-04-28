@@ -1,7 +1,9 @@
 import React from "react";
 import "./TopFold.css";
+import { Link } from 'react-router-dom';
 import logo512 from "../assets/images/logo512.png";
 import logo192 from "../assets/images/logo192.png";
+
 
 const TopFold = () => {
   return (
@@ -13,10 +15,10 @@ const TopFold = () => {
           <span className="brand">Your App</span>
         </div>
         <div className="nav-links">
-          <a href="#">Solutions and Services</a>
-          <a href="#">Integrations</a>
-          <a href="#">Resources</a>
-          <a href="#">Pricing</a>
+          <Link to="/">Home</Link> {/* Home link */}
+          <Link to="/solutions">Solutions and Services</Link> {/* Solutions link */}
+          <Link to="/integrations">Integrations</Link> {/* Solutions link */}
+          <Link to="/pricing">Pricing</Link> {/* Pricing link */}
         </div>
         <div className="nav-right">
           <span className="sales">Sales: +11 (11) 111-1111</span>
@@ -27,8 +29,8 @@ const TopFold = () => {
 
       {/* Hero Section */}
       <div className="hero">
-        <h3>#1 HORSING AROUND AND PLATFORM*</h3>
-        <h1>Turn Emailssss into Revenue</h1>
+        <h3>#1 PLATFORM*</h3>
+        <h1>Turn Emails into Revenue</h1>
         <p>
           Millions of businesses count on our site to drive sales.
         </p>
@@ -54,6 +56,7 @@ const TopFold = () => {
           <span>Times zero</span>
         </div>
       </div>
+
        
     </header>
   );
