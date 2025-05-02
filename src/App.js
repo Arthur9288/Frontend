@@ -5,6 +5,7 @@ import TopFold from './Views/TopFold';
 import Solutions from './Views/Solutions';
 import Integrations from './Views/Integrations'; // Correctly importing Integrations
 import Pricing from './Views/Pricing'; // Correctly importing Pricing
+import "@fontsource/playfair-display";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 

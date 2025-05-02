@@ -86,4 +86,6 @@
 .signup{
     width: 150px;
     height: 40px;
+    border: 1px solid black !important; /* Ensures the border is applied */
+    box-sizing: border-box;
 }

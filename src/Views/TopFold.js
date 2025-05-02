@@ -30,7 +30,7 @@ const TopFold = () => {
       {/* Hero Section */}
       <div className="hero">
         <h3>#1 PLATFORM*</h3>
-        <h1>Turn Emails into Revenue</h1>
+        <h1 style={{ fontFamily: 'Playfair Display, serif' }}>Your App Revenue</h1>
         <p>
           Millions of businesses count on our site to drive sales.
         </p>

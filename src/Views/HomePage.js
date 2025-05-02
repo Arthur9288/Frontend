@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './HomePage.css';
 
+
 const HomePage = () => {
     const [backgroundColor, setBackgroundColor] = useState('#fff');
     const [showScrollToTop, setShowScrollToTop] = useState(false);

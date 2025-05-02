@@ -80,10 +80,12 @@
 }
 
 .signup {
+  padding: 8px 15px;
   background: #ffcc00;
   color: black;
   border-radius: 5px;
   font-weight: bold;
+  border: 1px solid black !important; /* Ensures the border is applied */
 }
 
 /* Hero section */
@@ -111,6 +113,7 @@
   font-size: 16px;
   padding: 12px 20px;
   border-radius: 5px;
+  border: 1px solid black !important; /* Ensures the border is applied */
 }
 
 /* Statistics section */
